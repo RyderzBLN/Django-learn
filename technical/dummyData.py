@@ -1,6 +1,6 @@
 gadgets = [
   {
-    "name": "SmartHomeHub",
+    "name": "testing",
     "category": "Smart Home",
     "manufacturer": "HomeTech Co.",
     "price": 199.99,
