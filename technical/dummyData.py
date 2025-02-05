@@ -8,7 +8,7 @@ gadgets = [
     "description": "Ein zentrales Steuergerät, das verschiedene Smart-Home-Geräte miteinander verbindet und ihre Steuerung über eine App ermöglicht. Unterstützt Sprachsteuerung und automatisierte Szenarien."
   },
   {
-    "name": "WearableTracker X10",
+    "name": "Wearabletracker-x10",
     "category": "Wearable Technology",
     "manufacturer": "FitTrack Inc.",
     "price": 149.99,
@@ -16,7 +16,7 @@ gadgets = [
     "description": "Ein fortschrittlicher Fitness-Tracker, der Herzfrequenz, Schlafmuster und tägliche Aktivität überwacht. Wasserfest und kompatibel mit gängigen Gesundheits-Apps."
   },
   {
-    "name": "UltraPortable Laptop Z",
+    "name": "Laptop-Z",
     "category": "Computer & Laptops",
     "manufacturer": "TechGiant",
     "price": 1299.99,
@@ -32,7 +32,7 @@ gadgets = [
     "description": "Ein intelligenter Thermostat, der die Temperatur in Ihrem Zuhause automatisch anpasst, um Energie zu sparen und den Komfort zu erhöhen. Kompatibel mit gängigen Sprachassistenten und Smart-Home-Systemen."
   },
   {
-    "name": "FitnessBand Elite",
+    "name": "FitnessBand-Elite",
     "category": "Wearable Technology",
     "manufacturer": "FitTrack Inc.",
     "price": 99.99,
