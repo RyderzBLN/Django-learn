@@ -32,7 +32,7 @@ gadgets = [
     "description": "Ein intelligenter Thermostat, der die Temperatur in Ihrem Zuhause automatisch anpasst, um Energie zu sparen und den Komfort zu erhöhen. Kompatibel mit gängigen Sprachassistenten und Smart-Home-Systemen."
   },
   {
-    "name": "FitnessBand-Elite",
+    "name": "fitness-band",
     "category": "Wearable Technology",
     "manufacturer": "FitTrack Inc.",
     "price": 99.99,
