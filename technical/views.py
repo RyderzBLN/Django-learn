@@ -2,6 +2,8 @@ from django.shortcuts import redirect
 from django.http import HttpResponse, JsonResponse, HttpResponseNotFound, Http404
 from django.utils.text import slugify
 from django.views.decorators.csrf import csrf_exempt
+from django.views.generic.base import RedirectView
+
 from django.urls import reverse
 import json
 from django.views import View
@@ -13,6 +15,17 @@ from .dummyData import gadgets
 
 def startView(request):
     return HttpResponse("HELLO WORLD")
+
+
+class RedirectToGadgetView(RedirectView):
+    pattern_name = "single_gadget_url"
+
+    def get_redirect_url(self, *args, **kwargs):
+        slug = slugify(gadgets[kwargs.get("gadget_id", 1)]["name"])
+        new_kwargs = {"gadget_slug": slug}
+        return super().get_redirect_url(*args, **new_kwargs)
+
+
 
 class GadgetView(View):
 
