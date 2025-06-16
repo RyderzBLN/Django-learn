@@ -7,8 +7,8 @@
     <title>Document</title>
     <script>
 
-        const fetchGetUrl = "http://127.0.0.1:8000/technical/gadget/1";
-        const fetchPostUrl = "http://127.0.0.1:8000//technical/gadget/";
+        const fetchGetUrl = "http://127.0.0.1:8000/technical/gadget/info";
+        const fetchPostUrl = "http://127.0.0.1:8000/technical/gadget/"
 
 
         function getCookie(name) {
@@ -22,7 +22,13 @@
         }
 
         async function fetchTestPost() {
-            const data = { "test": true };
+           const data = {
+                name: "Neues Gadget",
+                headquarters: "München, Deutschland",
+                founded: 2021,
+                website: "https://www.neuesgadget.de",
+                description: "Ein cooles neues Gadget aus München."
+            };
 
             let response = await fetch(fetchPostUrl, {
                 method: 'POST',

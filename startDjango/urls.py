@@ -18,11 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from django.shortcuts import redirect
 
+
 def redirect_to_tech_gadgets(request):
      return redirect("technical/", permanent=True)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  # für POST-Anfragen
     path("technical/", include("technical.urls")),
     path('', redirect_to_tech_gadgets)
 ]
