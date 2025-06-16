@@ -51,9 +51,7 @@ gadgets = [
 
 
 
-
-
-[
+gadget = [
   {
     "name": "HomeTech Co.",
     "headquarters": "Berlin, Germany",

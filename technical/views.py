@@ -9,9 +9,12 @@ import json
 from django.views import View
 
 from .dummyData import gadgets
+from .dummyData import gadget
 
 # Create your views here.
 
+def gadget_info_view(request):
+    return JsonResponse({"gadget" : gadget})
 
 def startView(request):
     return HttpResponse("HELLO WORLD")
